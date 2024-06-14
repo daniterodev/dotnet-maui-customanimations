@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CustomAnimations.Maui.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid>
+        <Grid
+            x:Name="grid">
+            <Image
+                x:Name="image"
+                Source="card.png"
+                WidthRequest="200"/>
+        </Grid>
+        <Button
+            Text="Animar"
+            Margin="10"
+            VerticalOptions="End"
+            Clicked="Button_Clicked"/>
+    </Grid>
+
+</ContentPage>
