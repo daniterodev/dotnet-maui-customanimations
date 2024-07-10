@@ -10,13 +10,13 @@
             <Image
                 x:Name="image"
                 Source="card.png"
-                WidthRequest="200"/>
+                WidthRequest="200" />
         </Grid>
         <Button
             Text="Animar"
             Margin="10"
-            VerticalOptions="End"
-            Clicked="Button_Clicked"/>
+            Clicked="Button_Clicked"
+            VerticalOptions="End" />
     </Grid>
 
 </ContentPage>
